@@ -1,3 +1,5 @@
+/*kiem tra mot so cos phai so ban nguyen khong*/
+
 #include<stdio.h>
 void main()
 {
@@ -12,6 +14,4 @@ void main()
 		if(i<0)
 			printf ("%.3f khong la so ban nguyen",n);
 	getch();
-	
-
 }

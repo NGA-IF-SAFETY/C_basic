@@ -5,11 +5,11 @@ int main()
 {
 	float a,b,c,delta,x1,x2;
 	printf("nhap he so a =\t");
-	scanf("%f",&a);
+		scanf("%f",&a);
 	printf("nhap he so b =\t");
-	scanf("%f",&b);
+		scanf("%f",&b);
 	printf("nhap he so c =\t");
-	scanf("%f",&c);
+		scanf("%f",&c);
 	if (a==0)
 	{
 		if(b!=0)
@@ -22,9 +22,7 @@ int main()
 	}
 	else 
 	{
-	
 		delta=b*b-4*a*c;
-		
 		if (delta<0)	printf("phuong trinh vo nghiem");
 		else 
 		 	{
@@ -32,9 +30,7 @@ int main()
 			 else 
 			 	x1=(-b+sqrt(delta))/2*a;
 			 	x2=(-b-sqrt(delta))/2*a;
-			 	
 			 	printf("phuong trinh co hai nghiem phan biet \n x1= %.3f \n x2=%.3f",x1,x2);
-
 			}
 	}
 		
