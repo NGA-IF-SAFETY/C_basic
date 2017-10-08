@@ -8,5 +8,5 @@ void main()
 	n=n/10;
 	chuc=(n%10);
 	tram=n/10;
-	printf("so dao nguoc la:%d%d%d",dv,chuc,tram);
+	printf("so dao nguoc la:%d",dv+chuc+tram);
 }
